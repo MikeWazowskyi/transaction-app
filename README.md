@@ -27,3 +27,6 @@
 4. Run application on dev server:
 
    ``` python manage.py runserver```
+
+## Documentation
+   API documentation is available on  http://127.0.0.1:8000/docs/
