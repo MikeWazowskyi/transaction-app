@@ -16,11 +16,12 @@
 
    ```python -m venv venv```
    
-*unix:
+   *unix:
    ```source venv/Scripts/activate``` 
    
-Windows:
+   Windows:
    ```./venv/Scripts/activate``` 
+   
 3. Install requirements:
 
    ``` python -m pip install --upgrade pip```
