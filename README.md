@@ -10,7 +10,7 @@
 
    ``` git clone https://github.com/MikeWazowskyi/r7_test_task```
 
-   ``` cd flask_proxy_server```
+   ``` cd r7_test_task```
 
 2. Create and activate a virtual environment:
 
