@@ -27,8 +27,12 @@
    ``` python -m pip install --upgrade pip```
 
    ``` python -m pip install -r requirements.txt```
+   
+4. Make migrations:
 
-4. Run application on dev server:
+   ``` python manage.py migrate```
+
+5. Run application on dev server:
 
    ``` python manage.py runserver```
 
