@@ -15,9 +15,10 @@
 2. Create and activate a virtual environment:
 
    ```python -m venv venv```
-
-   ```source vens/Scripts/activate```
-
+*unix:
+   ```source venv/Scripts/activate``` 
+Windows:
+   ```./venv/Scripts/activate``` 
 3. Install requirements:
 
    ``` python -m pip install --upgrade pip```
