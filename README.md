@@ -8,7 +8,7 @@
 
 1. Clone the repository and navigate to it in the command line::
 
-   ``` git clone https://github.com/MikeWazowskyi/flask_proxy_server```
+   ``` git clone https://github.com/MikeWazowskyi/r7_test_task```
 
    ``` cd flask_proxy_server```
 
