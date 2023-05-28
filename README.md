@@ -8,16 +8,20 @@
 
 1. Clone the repository and navigate to it in the command line::
 
-   ``` git clone https://github.com/MikeWazowskyi/flask_proxy_server```
+   ``` git clone https://github.com/MikeWazowskyi/r7_test_task```
 
-   ``` cd flask_proxy_server```
+   ``` cd r7_test_task```
 
 2. Create and activate a virtual environment:
 
    ```python -m venv venv```
-
-   ```source vens/Scripts/activate```
-
+   
+   *unix:
+   ```source venv/Scripts/activate``` 
+   
+   Windows:
+   ```./venv/Scripts/activate``` 
+   
 3. Install requirements:
 
    ``` python -m pip install --upgrade pip```
