@@ -15,8 +15,10 @@
 2. Create and activate a virtual environment:
 
    ```python -m venv venv```
+   
 *unix:
    ```source venv/Scripts/activate``` 
+   
 Windows:
    ```./venv/Scripts/activate``` 
 3. Install requirements:
