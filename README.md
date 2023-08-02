@@ -1,5 +1,5 @@
 # Transaction app
-[![Django CI](https://github.com/MikeWazowskyi/transaction-app/actions/workflows/django.yml/badge.svg)](https://github.com/MikeWazowskyi/transaction-app/actions/workflows/django.yml)
+[![Django CI](https://github.com/MikeWazowskyi/transaction_app/actions/workflows/django.yml/badge.svg)](https://github.com/MikeWazowskyi/transaction_app/actions/workflows/django.yml)
 
 ## Description
 
@@ -9,9 +9,9 @@
 
 1. Clone the repository and navigate to it in the command line::
 
-   ``` git clone https://github.com/MikeWazowskyi/transaction-app.git```
+   ``` git clone https://github.com/MikeWazowskyi/transaction_app.git```
 
-   ``` cd transaction-app```
+   ``` cd transaction_app```
 
 2. Create and activate a virtual environment:
 
@@ -41,4 +41,4 @@
 
 ## Documentation
 
-API documentation is available on  http://127.0.0.1:8000/docs/
+API documentation is available on  http://<host>:<port>/docs
