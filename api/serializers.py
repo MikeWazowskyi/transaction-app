@@ -34,7 +34,7 @@ class TransactionSerializers(serializers.Serializer):
             tax_id_number__in=receivers_data)
         if receivers.count() != len(receivers_data):
             raise InvalidTransaction('Invalid tax id number')
-        if sender in receivers:
+        if self.instance in receivers:
             raise InvalidTransaction('Sender in receivers')
         return receivers_data
 
