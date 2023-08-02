@@ -18,16 +18,7 @@ class TransactionSerializers(serializers.Serializer):
     amount = serializers.FloatField(write_only=True)
 
     def update(self, instance, validated_data):
-        amount_per_reviver = round(
-            (validated_data['amount'] /
-             len(validated_data['receivers'])), 2
-        )  # Calculate amount per receiver
-        instance.account = F('account') - validated_data['amount']
-        instance.save()
-        User.objects.filter(
-            tax_id_number__in=validated_data['receivers']).update(
-            account=F('account') + amount_per_reviver)
-        return instance
+        return validated_data
 
     def validate_amount(self, amount):
         pattern = re.compile(r'^\d+(\.\d{1,2})?$')
