@@ -26,9 +26,6 @@ class TransactionSerializers(serializers.Serializer):
             raise InvalidTransaction('Amount must be greater then 0')
         if not re.match(pattern, str(amount)):
             raise InvalidTransaction('Invalid amount format, must be 0.00')
-        sender = self.instance
-        if sender.account < amount:
-            raise InvalidTransaction('Not enough amount on account')
         return amount
 
     def validate_receivers(self, receivers_data):
