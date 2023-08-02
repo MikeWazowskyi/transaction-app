@@ -1,5 +1,5 @@
 """
-ASGI config for r7_test_task project.
+ASGI config for transaction_app project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'r7_test_task.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'transaction_app.settings')
 
 application = get_asgi_application()
