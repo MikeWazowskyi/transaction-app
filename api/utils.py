@@ -14,4 +14,3 @@ def perform_transactions(sender, receivers, validated_data):
     sender.save()
     receivers.update(account=F('account') + amount_per_reviver)
     return sender, receivers
-
