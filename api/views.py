@@ -1,7 +1,12 @@
-from rest_framework import viewsets, mixins
 from django.contrib.auth import get_user_model
+from django.db import transaction
+from rest_framework import mixins, viewsets
+
 from .pagination import PageNumberPaginationWithLimit
 from .serializers import TransactionSerializers, UserSerializer
+from .utils import perform_transactions
+
+User = get_user_model()
 
 
 class ListUpdateViewSet(mixins.ListModelMixin,
