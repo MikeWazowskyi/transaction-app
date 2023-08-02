@@ -29,7 +29,6 @@ class TransactionSerializers(serializers.Serializer):
         return amount
 
     def validate_receivers(self, receivers_data):
-        sender = self.instance
         receivers = User.objects.filter(
             tax_id_number__in=receivers_data)
         if receivers.count() != len(receivers_data):
