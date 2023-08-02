@@ -28,11 +28,13 @@
 
    ``` python -m pip install -r requirements.txt```
 
-4. Perform migrations:
+4. Create .env file using .env_example 
+
+5. Perform migrations:
 
    ``` python manage.py migrate```
 
-5. Run application on dev server:
+6. Run application on dev server:
 
    ``` python manage.py runserver```
 
