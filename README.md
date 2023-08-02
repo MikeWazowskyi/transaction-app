@@ -43,4 +43,4 @@
 
 ## Documentation
 
-API documentation is available on  http://<host>:<port>/docs
+API documentation is available on  http://\<host\>:\<port\>/docs
