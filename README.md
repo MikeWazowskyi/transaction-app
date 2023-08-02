@@ -8,7 +8,7 @@
 
 1. Clone the repository and navigate to it in the command line::
 
-   ``` git clone [https://github.com/MikeWazowskyi/transaction-app](https://github.com/MikeWazowskyi/transaction-app.git)```
+   ``` git clone https://github.com/MikeWazowskyi/transaction-app.git```
 
    ``` cd transaction-app```
 
