@@ -1,5 +1,5 @@
 """
-WSGI config for r7_test_task project.
+WSGI config for transaction_app project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
