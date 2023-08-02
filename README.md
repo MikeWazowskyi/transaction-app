@@ -1,4 +1,4 @@
-# r7_test_task
+# Transaction app
 
 ## Description
 
@@ -8,9 +8,9 @@
 
 1. Clone the repository and navigate to it in the command line::
 
-   ``` git clone https://github.com/MikeWazowskyi/r7_test_task```
+   ``` git clone https://github.com/MikeWazowskyi/transaction-app.git```
 
-   ``` cd r7_test_task```
+   ``` cd transaction-app```
 
 2. Create and activate a virtual environment:
 
@@ -28,7 +28,7 @@
 
    ``` python -m pip install -r requirements.txt```
 
-4. Create .env file using .env_example 
+4. Create .env file using .env_example in ./transaction-app dir
 
 5. Perform migrations:
 
