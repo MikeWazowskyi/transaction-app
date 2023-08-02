@@ -1,8 +1,8 @@
 import re
 
-from django.db.models import F
-from rest_framework import serializers
 from django.contrib.auth import get_user_model
+from rest_framework import serializers
+
 from .exceptions import InvalidTransaction
 
 User = get_user_model()
@@ -13,9 +13,8 @@ class TransactionSerializers(serializers.Serializer):
     receivers = serializers.ListField(
         child=serializers.CharField(),
         allow_empty=False,
-        write_only=True
     )
-    amount = serializers.FloatField(write_only=True)
+    amount = serializers.FloatField()
 
     def update(self, instance, validated_data):
         return validated_data
