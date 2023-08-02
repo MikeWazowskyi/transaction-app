@@ -18,24 +18,26 @@
    ```python -m venv venv```
 
    *unix:
+   
    ```source venv/bin/activate```
 
    Windows:
+   
    ```./venv/Scripts/activate```
 
-3. Install requirements:
+4. Install requirements:
 
    ``` python -m pip install --upgrade pip```
 
    ``` python -m pip install -r requirements.txt```
 
-4. Create .env file using .env_example in ./transaction-app dir
+5. Create .env file using .env_example in ./transaction-app dir
 
-5. Perform migrations:
+6. Perform migrations:
 
    ``` python manage.py migrate```
 
-6. Run application on dev server:
+7. Run application on dev server:
 
    ``` python manage.py runserver```
 
