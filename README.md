@@ -1,4 +1,5 @@
 # Transaction app
+[![Django CI](https://github.com/MikeWazowskyi/transaction-app/actions/workflows/django.yml/badge.svg)](https://github.com/MikeWazowskyi/transaction-app/actions/workflows/django.yml)
 
 ## Description
 
